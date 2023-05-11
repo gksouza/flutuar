@@ -6,7 +6,8 @@
 
 body {
   /* border: 2px solid black; */
-  width: 1025px;  
+  width: 1025px;
+  height: 100vh;
   margin: auto;
   text-align: center;
 }
@@ -76,7 +77,7 @@ a {
   font-style: normal;
   font-weight: 700;
   font-size: 15px; 
-  color: #3F3D56;
+  color: #3F3D56;  
 }
 
 a + a {
@@ -86,5 +87,11 @@ a + a {
 
 #wave {
   /* border: 2px solid red; */
-  margin: 45px auto 0;
+  width: 100%;
+  position: absolute;
+  height: 80px;
+  bottom: 0;
+  /* left: 0; */
+  right: 0;
+  margin-top: 40px;
 }
